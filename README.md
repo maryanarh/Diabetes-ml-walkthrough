@@ -18,5 +18,3 @@ All preprocessing is fitted on the training fold only. Results are fully reprodu
 | Logistic Regression (balanced) | 0.734 | **0.704** | 0.650 | 0.813 |
 
 **Model-selection note:** Gradient Boosting leads on accuracy and ROC-AUC, but its recall (0.574) is substantially lower than the balanced Logistic Regression's (0.704). In a screening context where false negatives are costlier than false positives, the balanced Logistic Regression is the more defensible choice despite lower overall accuracy.
-
-## Project structure
